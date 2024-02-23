@@ -25,11 +25,11 @@ const userSchema= new Schema({
         trim : true,
         index: true
      },
-     avtar:{
+     avatar:{
         type: String, //cloudnary 
         required: true ,
     },
-    avtar:{
+    coverImage:{
         type: String, //cloudnary 
     },
     watchHistorry : [
